@@ -19,7 +19,7 @@ A API Flask serve o modelo e permite que os usuários forneçam dados histórico
 2. para construir a imagem Docker, use umterminal e insira o comando no rojeto | docker build -t api-lstm .
 3. apos baixar use o camando para executer container Docker | docker run -p 5000:5000 api-lstm
 4. Usando Docker Desktop para gerenciamento, Com isso, a API Flask será executada dentro de um contêiner Docker e estará acessível na URL http://127.0.0.1:5000/
-5. Ao iniciar o Docoker é necessario indicar nas configuraçoes "port:5000"
+5. Ao iniciar o Docker é necessario indicar nas configuraçoes "port:5000"
 
 
 ## Como executar
