@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "8b483e83-2852-4913-a810-53a3409ed0fe",
+		"name": "TECH CHALLENGE_Fase4",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16707648"
+	},
+	"item": [
+		{
+			"name": "Hisotorical_data_prediction_",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"historical_data\": [\r\n        [150.23], \r\n        [152.35], \r\n        [151.78], \r\n        [153.50], \r\n        [152.70], \r\n        [154.10]\r\n    ]\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/predict",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"predict"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": []
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		}
+	]
+}
